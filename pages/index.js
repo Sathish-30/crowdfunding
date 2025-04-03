@@ -213,7 +213,7 @@ export default function Home({ campaigns }) {
       updateEthPrice(ETHPrice);
       console.log("summary ", summary);
       setCampaignList(summary);
-
+      
       return summary;
     } catch (e) {
       console.log(e);
@@ -227,7 +227,7 @@ export default function Home({ campaigns }) {
   return (
     <div>
       <Head>
-        <title>BetterFund</title>
+        <title>DeFund</title>
         <meta
           name="description"
           content="Transparent Crowdfunding in Blockchain"
@@ -302,7 +302,7 @@ export default function Home({ campaigns }) {
           <HStack spacing={2}>
             <SkeletonCircle size="4" />
             <Heading as="h2" size="lg">
-              How BetterFund Works
+              How DeFund Works
             </Heading>
           </HStack>
           <Divider marginTop="4" />
@@ -333,7 +333,7 @@ export default function Home({ campaigns }) {
             For any queries raise an issue on{" "}
             <Link
               color="teal.500"
-              href="https://github.com/harsh242/betterfund-crowdfunding-in-blockchain/issues"
+              href="https://github.com/Sathish-30/crowdfunding/issues"
               isExternal
             >
               the Github Repo <ExternalLinkIcon mx="2px" />

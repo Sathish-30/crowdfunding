@@ -81,7 +81,7 @@ export default function NavBar() {
               size="lg"
             >
               <Box as={"span"} color={useColorModeValue("teal.400", "teal.300")}>
-                <NextLink href="/">🤝BetterFund</NextLink>
+                <NextLink href="/">DeFund</NextLink>
               </Box>
             </Heading>
           </Flex>

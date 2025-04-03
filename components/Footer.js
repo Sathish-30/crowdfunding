@@ -76,20 +76,20 @@ export default function Footer() {
               zIndex: -1,
             }}
           >
-            <NextLink href="/">🤝BetterFund</NextLink>
+            <NextLink href="/">DeFund</NextLink>
           </Box>
         </Heading>
         <Stack direction={"row"} spacing={6}>
           <NextLink href="/">Home</NextLink>
           <Link
             href={
-              "https://github.com/harsh242/betterfund-crowdfunding-in-blockchain"
+              "https://github.com/Sathish-30/crowdfunding"
             }
             isExternal
           >
             Github
           </Link>
-          <Link href={"mailto:harshbadhai242@gmail.com"} isExternal>
+          <Link href={"mailto:sathish.amsaravanan@gmail.com"} isExternal>
             Contact
           </Link>
         </Stack>
@@ -109,7 +109,7 @@ export default function Footer() {
           justify={{ base: "center", md: "space-between" }}
           align={{ base: "center", md: "center" }}
         >
-          <Text>🌐 Made while 💩 by Harsh, Hritvik , Nischal & Aaditya</Text>
+          <Text>Made by Sathish , kaarthika , Santhosh kumar</Text>
           <Stack direction={"row"} spacing={6}>
             <SocialButton label={"Website"} href={"https://harshbadhai.me/"}>
               {" "}
